@@ -1,11 +1,10 @@
 extends layout
 
 block content
-  h1 tweets
-  
-  a(href="/tweet") new tweet
+  h1 User Page
   
   ul
     each tweet in tweets
       - var content = tweet.message
-      li #{content}
+      - var author = "@" + user.username
+      li #{content} - #{author}

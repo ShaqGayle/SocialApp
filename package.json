@@ -4,11 +4,13 @@
   "description": "Social Network using Mongo, Express, and Node",
   "main": "index.js",
   "scripts": {
+    "nodemon": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Shaquille Gayle",
   "license": "ISC",
   "devDependencies": {
+    "bcrypt": "^1.0.2",
     "body-parser": "^1.17.2",
     "bootstrap": "^3.3.7",
     "express": "^4.15.3",

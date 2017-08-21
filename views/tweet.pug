@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  form(action="/tweet" method="POST")
+    //- input(type="text", placeholder="title", name = "title")
+    textarea(name="tweet", placeholder="Tweet something!")
+    button(type="submit") Tweet

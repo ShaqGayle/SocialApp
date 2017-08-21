@@ -1,10 +1,19 @@
 doctype html
 head
-  title Test 
+  title Ani-Mates | #{title}
   meta(charset="utf-8")
   link(rel="stylesheet" href="/css/bootstrap.min.css")
   link(rel="stylesheet" href="/public/styles.css")
   script(src="/js/jquery.min.js")
   script(src="/js/bootstrap.min.js")
 body
-  block content
+  div(class="container")
+    div(class="jumbotron")
+      span logo goes here 
+      ul
+        li This will be nav
+        li needs to be horizontal
+        li tabs are home, topics, and user
+      a(href="/") Home  
+      
+    block content
